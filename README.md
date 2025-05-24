@@ -150,6 +150,3 @@ Built with ❤️ by hackaton team
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is for demo/hackathon use. Do not use your main wallet/private key.
