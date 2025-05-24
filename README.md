@@ -144,11 +144,9 @@ Use this in any **public goods**, **DeFi accessibility**, or **consumer-facing**
 
 ## 📫 Contact
 
-Built with ❤️ by [YourName or TeamName]
+Built with ❤️ by hackaton team 
 
-- Email: your@email.com
-- Twitter: @yourhandle
-- GitHub: https://github.com/your-username
+
 
 ---
 
