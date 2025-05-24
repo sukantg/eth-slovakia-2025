@@ -102,7 +102,7 @@ Access: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots(need to do)
 
 - Login screen (phone number input)
 - Dashboard with wallet connection
@@ -113,7 +113,7 @@ Access: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 📊 Use Cases
+## 📊 Use Cases( need to do )
 
 - Fast P2P payments for everyday users
 - Donations by phone
