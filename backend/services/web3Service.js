@@ -1,0 +1,1 @@
+const { ethers } = require('ethers'); const provider = new ethers.JsonRpcProvider(process.env.ETH_PROVIDER_URL); exports.sendTransaction = async (from, to, amount) => { const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider); const tx = await wallet.sendTransaction({ to, value: ethers.parseEther(amount) }); return tx.hash; };

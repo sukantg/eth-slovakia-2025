@@ -1,0 +1,1 @@
+const express = require('express'); const router = express.Router(); const c = require('../controllers/authController'); router.post('/send-sms', c.sendSMS); router.get('/login', c.verifyToken); module.exports = router;
