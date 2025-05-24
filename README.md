@@ -1,6 +1,6 @@
 # 🚀 CryptoBlink — Phone-Based Crypto Payment System
 
-CryptoBlink is a simple and secure crypto payment system that lets users send and receive cryptocurrency using just a **phone number** — inspired by Poland’s BLIK system, but powered by **Ethereum and Web3**.
+CryptoBlink is a simple and secure crypto payment system that lets users send and receive cryptocurrency using just a **phone number** — inspired by Poland's BLIK system, but powered by **Ethereum and Web3**.
 
 ---
 
@@ -12,7 +12,7 @@ Millions of people are excluded from crypto because of:
 - Lack of trust and accessibility
 
 **CryptoBlink solves that.**  
-We make it possible to send ETH just by typing in someone’s phone number.
+We make it possible to send ETH just by typing in someone's phone number.
 
 ---
 
@@ -25,7 +25,7 @@ We make it possible to send ETH just by typing in someone’s phone number.
    After login, the user connects MetaMask or WalletConnect.
 
 3. **Send ETH by Phone**  
-   Type in the recipient’s phone number and amount → we handle the rest.
+   Type in the recipient's phone number and amount → we handle the rest.
 
 4. **Auto Claiming**  
    If the recipient is not yet registered, they get an SMS with a link to claim the funds after connecting a wallet.
@@ -109,7 +109,7 @@ Access: [http://localhost:5173](http://localhost:5173)
 - Send crypto by phone
 - Confirmation modal
 
-> Add screenshots here in markdown format or upload in repo’s `/assets`.
+> Add screenshots here in markdown format or upload in repo's `/assets`.
 
 ---
 

@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 18 140 126; /* WhatsApp green */
+    --color-secondary: 37 211 102; /* WhatsApp light green */
+    --color-accent: 255 196 51; /* Yellow accent */
+    --color-success: 37 211 102;
+    --color-warning: 255 196 51;
+    --color-error: 235 87 87;
+    --color-background: 249 249 249;
+    --color-message-sent: 220 248 198;
+    --color-message-sent-alt: 200 250 205;
+    --color-message-received: 255 255 255;
+    --color-message-received-alt: 240 242 245;
+  }
+
+  html, body {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+    @apply bg-background text-gray-800 font-sans antialiased;
+  }
+
+  #root {
+    height: 100%;
+  }
+}
+
+@layer components {
+  .chat-bubble-sent {
+    @apply bg-[rgb(var(--color-message-sent))] relative rounded-lg p-2 px-3 max-w-[80%] ml-auto;
+  }
+  
+  .chat-bubble-sent::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at top right, transparent 16px, rgb(var(--color-message-sent)) 0);
+  }
+
+  .chat-bubble-sent-alt {
+    @apply bg-[rgb(var(--color-message-sent-alt))] relative rounded-lg p-2 px-3 max-w-[80%] ml-auto;
+  }
+  
+  .chat-bubble-sent-alt::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at top right, transparent 16px, rgb(var(--color-message-sent-alt)) 0);
+  }
+  
+  .chat-bubble-received {
+    @apply bg-[rgb(var(--color-message-received))] relative rounded-lg p-2 px-3 max-w-[80%] shadow-sm;
+  }
+  
+  .chat-bubble-received::after {
+    content: "";
+    position: absolute;
+    left: -8px;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at top left, transparent 16px, rgb(var(--color-message-received)) 0);
+  }
+
+  .chat-bubble-received-alt {
+    @apply bg-[rgb(var(--color-message-received-alt))] relative rounded-lg p-2 px-3 max-w-[80%] shadow-sm;
+  }
+  
+  .chat-bubble-received-alt::after {
+    content: "";
+    position: absolute;
+    left: -8px;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at top left, transparent 16px, rgb(var(--color-message-received-alt)) 0);
+  }
+
+  .status-dot {
+    @apply h-2.5 w-2.5 rounded-full bg-[rgb(var(--color-success))] absolute bottom-0 right-0 border-2 border-white;
+  }
+  
+  .typing-indicator span {
+    @apply inline-block w-1.5 h-1.5 bg-gray-400 rounded-full mx-0.5 animate-bounce;
+  }
+  
+  .typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+}
