@@ -144,7 +144,7 @@ Use this in any **public goods**, **DeFi accessibility**, or **consumer-facing**
 
 ## 📫 Contact
 
-Built with ❤️ by hackaton team 
+Built with ❤️ by bratislava hackaton team 
 
 
 
